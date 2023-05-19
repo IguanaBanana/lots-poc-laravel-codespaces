@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    print 'Holis, soy Ivanna Banana';
+    print 'Holis, soy Ivanna Banana.Feature1';
     return view('welcome');
 });
 Route::get('/saludos', function () {
-    print 'Holis, esta es una ruta nueva por Ivanna Banana';
+    print 'Holis, esta es una ruta nueva por Ivanna Banana y esto es Feature1';
 });
